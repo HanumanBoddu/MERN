@@ -1,5 +1,5 @@
 import { Server } from 'socket.io';
-
+import cors from 'cors';
 const io = new Server(9000, {
     cors: {
         origin: 'http://localhost:3000',
